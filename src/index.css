@@ -10,16 +10,6 @@ body {
   width: 100%;
 }
 
-ion-icon {
-  font-size: 24px;
-}
-
-.nav-link:hover {
-  background-color: rgb(255, 0, 255);
-  color: rgb(0, 0, 0);
-  transition: all 0.5s ease-in-out;
-}
-
 @media screen and (max-width: 950px) {
   .title {
     width: 70%;
@@ -50,12 +40,15 @@ h1 {
   align-items: center;
   height: 100%;
   transition: all 0.5s ease-in-out;
+  text-decoration: none;
 }
 
-.title:hover {
+.title:hover,
+title:active {
   background-color: rgb(255, 0, 255);
   color: rgb(0, 0, 0);
   cursor: pointer;
+  text-decoration: none;
 }
 
 /* <Navbar /> */
@@ -67,6 +60,10 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+ion-icon {
+  font-size: 24px;
 }
 
 .nav-links {
@@ -84,6 +81,13 @@ nav {
   width: 50%;
   color: white;
   text-align: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  background-color: rgb(255, 0, 255);
+  color: rgb(0, 0, 0);
 }
 
 /* <ProjectCard /> styles*/

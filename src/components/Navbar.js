@@ -3,9 +3,14 @@ import React from "react";
 const Navbar = () => {
   return (
     <nav>
-      <div className="title">
-        <h1>PROJECTS</h1>
-      </div>
+        <a
+          href="https://latishagriffiths.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="title"
+        >
+          <h1>PROJECTS</h1>
+        </a>
       <div className="nav-links">
         <a
           href="https://latishagriffiths.com/"
