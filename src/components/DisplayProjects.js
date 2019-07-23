@@ -38,14 +38,6 @@ class DisplayProjects extends React.Component {
         builtWith: "HTML, CSS, and jQuery."
       },
       {
-        name: "Restaurant API",
-        imageUrl: "https://i.ibb.co/47wzS5f/restaurant-api.png",
-        link: "https://restaurant-api-capstone.herokuapp.com/",
-        description:
-          "Built to help users find places to eat based on location or cuisine.",
-        builtWith: "Node, Express, Zomato API, and Bootstrap."
-      },
-      {
         name: "Bloccit",
         imageURL: "https://i.ibb.co/8mBv7wk/bloccit.png",
         link: "https://tishg-bloccit-b.herokuapp.com/",
