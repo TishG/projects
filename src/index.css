@@ -1,0 +1,49 @@
+body {
+  background-color: rgba(220, 220, 220, 0.3);
+}
+/* <App /> styles */
+#title-span {
+  color: rgb(210, 180, 140);
+  font-size: 16px;
+}
+
+/* <ProjectCard /> styles*/
+.view-project-button {
+  background-color: rgb(210, 180, 140);
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+
+.view-project-button:hover {
+  transform: scale(0.95);
+}
+
+@media (min-width: 768px) and (max-width: 1134px) {
+  .card {
+    height: 568px;
+  }
+}
+
+@media (min-width: 1135px) {
+  .card {
+    height: 581px;
+  }
+}
+
+.card-img-top {
+  -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* <GithubLink */
+.github-link {
+  background-color: rgb(210, 180, 140);
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.github-link:hover {
+  transform: scale(0.95);
+}
