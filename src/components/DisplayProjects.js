@@ -71,22 +71,21 @@ class DisplayProjects extends React.Component {
       },
       {
         name: "Amazon Product Page",
-        imageURL: "https://i.ibb.co/yNBsJBr/amazon-site-url-2.png",
+        imageURL: "https://i.ibb.co/Z1y1XTv/screen-size.png",
         link: "https://tishg.github.io/amazon_product_website/",
         description: "Simple website to advertise an amazon user's product",
         builtWith: "HTML, CSS, Bootstrap, and jQuery."
       },
       {
         name: "ViewTube",
-        imageURL:
-          "https://i.ibb.co/z70fM3G/screencapture-localhost-3000-2019-06-19-19-15-11.png",
+        imageURL: "https://i.ibb.co/51Jy5KR/screen-size.png",
         link: "https://tishg.github.io/view-tube",
         description: "A responsive video player application",
         builtWith: "React and Bootstrap"
       },
       {
         name: "LLoyds of London clone",
-        imageURL: "https://i.ibb.co/KhK1bdj/lloyds-of-london-clone.png",
+        imageURL: "https://i.ibb.co/tMf96z5/screen-size.png",
         link: "https://tishg.github.io/lloyds-of-london-clone/",
         description:
           "A clone of the Lloyds of London 'Taking control' page. Completed as part of my pre-work for chingu.",
